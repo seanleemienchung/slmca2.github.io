@@ -1,0 +1,149 @@
+* { 
+  margin: 0; 
+  padding: 0; 
+  box-sizing:border-box; 
+}
+
+h1,h2,h3,h4,h5,h6,div,nav {
+  font-family: "Oswald"
+}
+
+.text, p {
+  font-family: "Open Sans";
+  line-height: 55px;
+  font-size: 25px;
+  padding: 30px;
+}
+.text1 {
+  font-family: "Open Sans";
+  line-height: 40px;
+  font-size: 25px;
+  padding: 15	px;
+}
+.line{
+  line-height: 5px;
+  font-size: 25px;
+  padding: 10px;
+}
+a:link, a:visited {
+  color:#008080;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:hover {
+  color: #0099ff;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: darkblue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+body {
+  background-color: #595959;
+}
+
+.button{
+  border:none;
+  display:inline-block; 
+  padding:8px 16px; 
+  vertical-align:middle;
+  overflow:hidden;text-decoration:none;
+  color:#f1f1f1;
+  background-color:#000;
+  text-align:center;
+  cursor:pointer;
+  white-space:nowrap
+} 
+.button:hover{
+  color:#000;
+  background-color:#dddddd;
+
+} 
+.image-container {
+  background-color: #000000;
+  position:relative;
+  margin-left:auto;
+  margin-right:auto;
+}
+.image {
+  max-width:100%;
+  padding: 10px ;
+}
+.image1 {
+  max-width:100%;
+  padding: 0px ;
+}
+
+.mainnav {
+  background-color: #000000;
+  position: relative;
+  overflow: hidden;
+}
+.mainnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 7px 35px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+
+.mainnav a:hover {
+  background-color: #f1f1f1;
+  color: black;
+}	
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  background-color: #595959;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 3px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 25px;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #cccccc;
+  color: #595959;
+}
+
+.grid-container {
+  display: flex;
+  flex-direction: row;
+  background-color: #595959;
+}
+
+.grid-container > div {
+  background-color: #f1f1f1;
+  margin: 0px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 25px;
+}
+
+.pd {
+  max-width:100%;
+  padding: 10px ;
+}
+.np {
+  max-width:100%;
+  padding: 0px ;
+}
+
+
